@@ -9,7 +9,9 @@
 <body>
     <form action="script.php" autocomplete="on" method="post">
 
-        <p><label for="Nome">Nome</label> <input type="text" name="Nome" id="Nome"></p>
+        <p><label for="Nome">Nome</label> <input type="text" name="Nome" id="Nome" autocomplete="name"></p>
+        
+        <p>Senha<label for="senha"><input type="password" name="senha" id="senha" autocomplete="new-password" placeholder="senha aqui"></label></p>
 
         <p><label for="sobrenome">Sobrenome</label> <input type="text" name="sobrenome" id="sobrenome"></p>
         <p><input type="submit" value="enviar"></p>
